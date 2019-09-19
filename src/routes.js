@@ -3,7 +3,7 @@ import { Router } from 'express'
 const routes = new Router()
 
 routes.get('/',(req,res)=>{
-    res.send("MIAL NEGRO 2")
+    res.send("24")
 })
 
 export default routes
