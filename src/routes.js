@@ -2,11 +2,11 @@ import { Router } from 'express'
 
 const routes = new Router()
 
-routes.get('/',(req,res)=>{
+routes.get('/index',(req,res)=>{
     res.json({message:"O index não tem nada :-)"})
 })
 
-routes.get('/index',(req,res)=>{
+routes.get('/',(req,res)=>{
     res.send("24")
 })
 
