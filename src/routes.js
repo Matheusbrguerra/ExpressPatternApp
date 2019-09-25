@@ -7,7 +7,7 @@ routes.get('/index',(req,res)=>{
 })
 
 routes.get('/',(req,res)=>{
-    res.send("24")
+    res.send({message:"O index não tem nada tambem :-)"})
 })
 
 export default routes
